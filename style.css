@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #0b1020;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background: #151d32;
+  padding: 22px;
+  border-bottom: 1px solid #26334d;
+}
+
+h1 {
+  color: #55aaff;
+  margin: 0;
+}
+
+main {
+  padding: 25px;
+}
+
+.editor {
+  background: #151d32;
+  border: 1px solid #26334d;
+  border-radius: 12px;
+  padding: 20px;
+}
