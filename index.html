@@ -4,9 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>XALD@ DEVELOPER</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+<header>
   <h1>XALD@ DEVELOPER</h1>
-  <p>My Personal Coding Platform</p>
+  <p>Personal Coding Workspace</p>
+</header>
+
+<main>
+  <section class="editor">
+    <h2>HTML Editor</h2>
+
+    <textarea id="code" placeholder="Write your HTML code here...">
+<h1>Hello World!</h1>
+<p>Welcome to XALD@ DEVELOPER</p>
+    </textarea>
+
+    <div class="buttons">
+      <button onclick="runHTML()">RUN</button>
+      <button onclick="clearCode()">CLEAR</button>
+      <button onclick="saveCode()">SAVE</button>
+    </div>
+
+    <h2>Preview</h2>
+    <iframe id="preview" title="Preview"></iframe>
+  </section>
+</main>
+
+<script src="script.js"></script>
 </body>
 </html>
